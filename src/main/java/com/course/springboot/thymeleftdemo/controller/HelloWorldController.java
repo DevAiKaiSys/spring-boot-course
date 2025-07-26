@@ -14,7 +14,6 @@ public class HelloWorldController {
     // need a controller method to show initial HTML form
 
     @GetMapping("/showForm")
-//    @PostMapping("/showForm")
     public String showForm() {
         return "helloworld-form";
     }
@@ -45,7 +44,7 @@ public class HelloWorldController {
         return "helloworld";
     }
 
-    @RequestMapping("/processForm/v3")
+    @PostMapping("/processForm/v3")
     public String processFormVersionThree(@RequestParam("studentName") String theName,
                                           Model model) {
 
