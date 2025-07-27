@@ -8,6 +8,7 @@ This project is a demonstration of using Spring Boot MVC CRUD.
 * Maven
 * Java 21
 * Thymeleaf
+* MySQL8
 
 ## Reference
 
