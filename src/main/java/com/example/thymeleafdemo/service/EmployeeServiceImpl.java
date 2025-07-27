@@ -1,7 +1,7 @@
-package com.example.cruddemo.service;
+package com.example.thymeleafdemo.service;
 
-import com.example.cruddemo.dao.EmployeeRepository;
-import com.example.cruddemo.entity.Employee;
+import com.example.thymeleafdemo.dao.EmployeeRepository;
+import com.example.thymeleafdemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
