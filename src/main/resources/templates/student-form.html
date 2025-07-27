@@ -12,11 +12,11 @@
 
     First name: <input type="text" th:field="*{firstName}"/>
 
-    <br></br>
+    <br><br>
 
     Last name: <input type="text" th:field="*{lastName}"/>
 
-    <br></br>
+    <br><br>
 
     Country:
 
@@ -26,7 +26,7 @@
 
     </select>
 
-    <br></br>
+    <br><br>
 
     Favorite Programming Language:
 
@@ -35,7 +35,15 @@
            th:value="${tempLang}"
            th:text="${tempLang}"/>
 
-    <br></br>
+    <br><br>
+
+    Favorite Operating System:
+
+    <input type="checkbox" th:field="*{favoriteSystems}" th:value="Linux">Linux</input>
+    <input type="checkbox" th:field="*{favoriteSystems}" th:value="macOS">macOS</input>
+    <input type="checkbox" th:field="*{favoriteSystems}" th:value="'Microsoft Windows'">Microsoft Windows</input>
+
+    <br><br>
 
     <input type="submit" value="Submit"/>
 
